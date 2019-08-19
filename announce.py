@@ -23,5 +23,3 @@ ltom = TODAY+relativedelta(day=days_in_month, weekday=TH(-1))
 time_format = ltom.strftime("%B %d %Y")
 
 print(time_format)
-
-
